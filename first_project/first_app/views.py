@@ -1,8 +1,9 @@
 from django.shortcuts import render
 from django.http import HttpResponse
-# Create your views here.
+from first_app.models import Topic, Webpage, AccessRecord
 
 
 def index(request):
-    my_dict = {'insert_me': "Hello I'm from first_app/view.py"}
-    return render(request, "first_app/index.html", context=my_dict)
+    Webpages_list = AccessRecord.objects.order_by('date')
+    date_dict = {'access_records': Webpages_list}
+    return render(request, "first_app/index.html", context=date_dict)
