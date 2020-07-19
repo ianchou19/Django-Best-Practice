@@ -1,4 +1,4 @@
-"""ProTwo URL Configuration
+"""basicforms URL Configuration
 
 The `urlpatterns` list routes URLs to views. For more information please see:
     https://docs.djangoproject.com/en/3.0/topics/http/urls/
@@ -16,11 +16,10 @@ Including another URLconf
 from django.contrib import admin
 from django.urls import path
 from django.conf.urls import url
-from django.conf.urls import include
-from appTwo import views
+from basicapp import views
 
 urlpatterns = [
-    url(r'^$', views.index, name="index"),
-    url(r'^help/', include('appTwo.urls')),
+    url(r'^$', views.index, name='index'),
     path('admin/', admin.site.urls),
+    url(r'^formpage/', views.form_name_view, name='form_name')
 ]
