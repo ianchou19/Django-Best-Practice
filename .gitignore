@@ -2,4 +2,5 @@
 **first_project/first_app/__pycache__/
 **first_project/first_project/__pycache__/
 **basicforms/basicapp/__pycache__/
+**learning_templates/basic_app/templatetags/__pycache__/
 *.DS_Store
