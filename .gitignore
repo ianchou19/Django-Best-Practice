@@ -5,4 +5,5 @@
 **learning_templates/basic_app/templatetags/__pycache__/
 **learning_users/learning_users/__pycache__/
 **learning_users/basic_app/__pycache__/
+**learning_templates/learning_templates/__pycache__/
 *.DS_Store
