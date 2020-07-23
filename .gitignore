@@ -8,4 +8,5 @@
 **learning_templates/learning_templates/__pycache__/
 **advcbv/advcbv/__pycache__/
 **advcbv/basic_app/__pycache__/
+**advcbv/basic_app/migrations/__pycache__/
 *.DS_Store
