@@ -20,12 +20,6 @@ Created an environment with the latest version of Django
 conda create —name myEnv django
 ```
 
-Created an environment with the latest version of Django
-
-```
-conda create —name myEnv django
-```
-
 To activate this environment
 
 ```
@@ -38,19 +32,12 @@ To deactivate an active environment
 conda deactivate
 ```
 
-List all virtual environment
-
-```
-conda info —envs
-```
-
-
 <br />
 
 ### Running
 
 ```
-python manage.py runserver 
+python manage.py runserver
 ```
 
 The service is running on http://127.0.0.1:8000/.
