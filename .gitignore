@@ -9,5 +9,6 @@
 **advcbv/advcbv/__pycache__/
 **advcbv/basic_app/__pycache__/
 **advcbv/basic_app/migrations/__pycache__/
+**ProTwo/ProTwo/__pycache__
 *.DS_Store
 *db.sqlite3
